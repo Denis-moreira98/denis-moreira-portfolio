@@ -1,5 +1,5 @@
 import { FormEvent, useRef, useState } from "react";
-import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
+//import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
 
 import { CaretRight, PaperPlaneTilt } from "@phosphor-icons/react";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
@@ -20,14 +20,14 @@ export function Contact() {
 
    const sendEmail = (e: FormEvent) => {
       e.preventDefault();
-
-      emailjs
-         .sendForm(
-            "service_i4lv4zc",
-            "template_u15b3jc",
+      console.log("clicou");
+      /*  emailjs
+       .sendForm(
+            "service_os9srmh",
+            "template_9iyl32p",
             // @ts-ignore: Unreachable code error
             form.current,
-            "jhHr7J9gVYYXBdXrd"
+            "n-tWtKHd5wBLaXUf4"
          )
          .then(
             (result: EmailJSResponseStatus) => {
@@ -38,7 +38,7 @@ export function Contact() {
             (error: EmailJSResponseStatus) => {
                console.log(error.text);
             }
-         );
+         ); */
    };
 
    return (
@@ -58,7 +58,7 @@ export function Contact() {
                      <span>denis.moreira98@outlook.com</span>
 
                      <a
-                        href="mailto:alisonsantoso22@gmail.com"
+                        href="mailto:denis.moreira98@outlook.com"
                         className="contact-button"
                         target="_blank"
                      >
