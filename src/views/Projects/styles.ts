@@ -10,9 +10,6 @@ export const StyledProjects = styled.section`
    .social-icon{
       font-size: 2rem;
       color: ${({ theme }) => theme.colors.main500}
-      
-
-      
    }
    
 
@@ -22,7 +19,7 @@ export const StyledProjects = styled.section`
       width:
       margin-bottom: 3rem;
       border-radius: 1.5rem;
-      height: 360px;
+      height: 370px;
       
 
 

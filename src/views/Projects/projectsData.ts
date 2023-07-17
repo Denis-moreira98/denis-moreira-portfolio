@@ -47,7 +47,7 @@ export const projectsData = [
       image: image6,
       title: "Dev Currency",
       url: "https://github.com/Denis-moreira98/projeto_criptomoedas",
-      deploy: "https://github.com/Denis-moreira98/projeto_criptomoedas",
+      deploy: "https://projeto-criptomoedas.vercel.app/",
    },
    {
       id: 7,
