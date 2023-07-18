@@ -6,7 +6,7 @@ import { projectsData } from "./projectsData";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // @ts-ignore: Unreachable code error
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 
 export function Projects() {
    const navigationPrevRef = useRef(null);
@@ -18,13 +18,12 @@ export function Projects() {
          <span className="section-subtitle">Projetos pessoais</span>
 
          <Swiper
-            className="projects-container"
-            spaceBetween={16}
-            grabCursor={true}
-            pagination={{
-               clickable: true,
-            }}
-            navigation
+            /* </StyledProjects>pagination={{
+               type: "progressbar",
+            }} */
+            spaceBetween={14}
+            navigation={true}
+            modules={[Pagination]}
             breakpoints={{
                576: {
                   slidesPerView: 1,
@@ -33,7 +32,6 @@ export function Projects() {
                   slidesPerView: 2,
                },
             }}
-            modules={[Pagination]}
          >
             {projectsData.map(({ id, image, title, url, deploy }) => (
                <SwiperSlide className="projects-card" key={id}>

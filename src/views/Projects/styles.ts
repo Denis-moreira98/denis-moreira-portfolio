@@ -19,7 +19,7 @@ export const StyledProjects = styled.section`
       width:
       margin-bottom: 3rem;
       border-radius: 1.5rem;
-      height: 370px;
+      height: 360px;
       
 
 
@@ -32,6 +32,7 @@ export const StyledProjects = styled.section`
       }
 
       h3 {
+         text-align: center;
          padding-left: 10px;
          font-size: 1.2rem;
          font-weight: 500;
