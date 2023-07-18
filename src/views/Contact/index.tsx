@@ -1,5 +1,5 @@
 import { FormEvent, useRef, useState } from "react";
-//import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
+import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
 
 import { CaretRight, PaperPlaneTilt } from "@phosphor-icons/react";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
@@ -8,37 +8,70 @@ import { MdMarkEmailRead } from "react-icons/md";
 import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea";
 import { Button } from "../../components/Button";
-
 import { StyledContact } from "./styles";
 
+import toast from "react-hot-toast";
+
 export function Contact() {
-   const form = useRef<HTMLFormElement>(null);
+   const form = useRef();
 
    const [name, setName] = useState("");
    const [email, setEmail] = useState("");
-   const [projectDescription, setProjectDescription] = useState("");
+   const [message, setMessage] = useState("");
 
    const sendEmail = (e: FormEvent) => {
       e.preventDefault();
-      console.log("clicou");
-      /*  emailjs
-       .sendForm(
+
+      if (!name || !email || message === "") {
+         //console.log("Preencha todos campos");
+         toast.error("Preencha todos os campos!", {
+            style: {
+               border: "1px solid #ccc",
+               padding: "16px",
+               color: "#191a1c",
+               backgroundColor: "#e6ecf9",
+            },
+            iconTheme: {
+               primary: "#e52e4d",
+               secondary: "#cfd4e5",
+            },
+         });
+
+         return;
+      }
+
+      emailjs
+         .sendForm(
             "service_os9srmh",
-            "template_9iyl32p",
-            // @ts-ignore: Unreachable code error
+            "template_mycg68m",
             form.current,
-            "n-tWtKHd5wBLaXUf4"
+            "X3dye-xPscvmV2Qmi"
          )
          .then(
-            (result: EmailJSResponseStatus) => {
+            (result) => {
+               // console.log(result.text);
+               // console.log("Mensagem enviada com succeo");
+               toast.success("Mensagem enviada!", {
+                  style: {
+                     border: "1px solid #ccc",
+                     padding: "16px",
+                     color: "#191a1c",
+                     backgroundColor: "#e6ecf9",
+                  },
+                  iconTheme: {
+                     primary: "#10955F",
+                     secondary: "#e6ecf9",
+                  },
+               });
                setName("");
                setEmail("");
-               setProjectDescription("");
+               setMessage("");
             },
-            (error: EmailJSResponseStatus) => {
+            (error) => {
                console.log(error.text);
+               toast.error("Erro ao enviar a mensagem!");
             }
-         ); */
+         );
    };
 
    return (
@@ -123,19 +156,17 @@ export function Contact() {
                      />
                      <Textarea
                         label="Projeto"
-                        name="project"
+                        name="message"
                         placeholder="Fale sobre seu projeto"
                         cols={20}
                         rows={6}
-                        value={projectDescription}
-                        onChange={(e) => setProjectDescription(e.target.value)}
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                      />
                   </div>
 
                   <div className="btn-container">
-                     <Button icon={<PaperPlaneTilt />}>
-                        <a href="#contact">Enviar menssagem</a>
-                     </Button>
+                     <Button icon={<PaperPlaneTilt />}>Enviar menssagem</Button>
                   </div>
                </form>
             </div>
