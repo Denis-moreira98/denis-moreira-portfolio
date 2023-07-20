@@ -27,7 +27,7 @@ export function Contact() {
          toast.error("Preencha todos os campos!", {
             style: {
                border: "1px solid #ccc",
-               padding: "16px",
+               padding: "8px",
                color: "#191a1c",
                backgroundColor: "#e6ecf9",
             },
@@ -54,7 +54,7 @@ export function Contact() {
                toast.success("Mensagem enviada!", {
                   style: {
                      border: "1px solid #ccc",
-                     padding: "16px",
+                     padding: "8px",
                      color: "#191a1c",
                      backgroundColor: "#e6ecf9",
                   },
