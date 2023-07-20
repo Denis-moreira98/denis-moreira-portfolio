@@ -135,7 +135,7 @@ export function Contact() {
             </div>
 
             <div className="contact-content">
-               <h3 className="contact-title">Fale do seu projeto</h3>
+               <h3 className="contact-title">Fale sobre seu projeto</h3>
 
                <form ref={form} onSubmit={sendEmail} className="contact-form">
                   <div className="form-content">
@@ -165,7 +165,7 @@ export function Contact() {
                      />
                   </div>
 
-                  <div className="btn-container">
+                  <div className="btn-container btn">
                      <Button icon={<PaperPlaneTilt />}>Enviar menssagem</Button>
                   </div>
                </form>

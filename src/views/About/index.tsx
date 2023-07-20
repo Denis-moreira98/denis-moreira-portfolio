@@ -19,14 +19,14 @@ export function About() {
 
                <p>
                   Sou graduado em Análise e Desenvolvimento de Sistemas ,
-                  desenvolvedor de software, voltado para aplicações web.{" "}
-                  <br></br>Os avanços tecnológicos vêm carregados de facilidades
-                  que objetivam melhorar nosso desempenho nas tarefas do dia a
-                  dia, seja tornando-as mais rápidas, mais seguras ou mais
-                  simples. Fascinado pelos avanços tecnológicos, estou sempre em
-                  busca de novos desafios para poder progredir na área. Me
-                  considero ágil e consistente em aprender uma nova tecnologia e
-                  alta adaptabilidade às mudanças, pronto para superar qualquer
+                  desenvolvedor de software, voltado para aplicações web. <br />
+                  Os avanços tecnológicos vêm carregados de facilidades que
+                  objetivam melhorar nosso desempenho nas tarefas do dia a dia,
+                  seja tornando-as mais rápidas, mais seguras ou mais simples.
+                  Fascinado pelos avanços tecnológicos, estou sempre em busca de
+                  novos desafios para poder progredir na área. Me considero ágil
+                  e consistente em aprender uma nova tecnologia e alta
+                  adaptabilidade às mudanças, pronto para superar qualquer
                   desafio! Tenho como objetivo contribuir com meus
                   conhecimentos, aprender e evoluir profissionalmente. Possuo
                   foco em desenvolvimento com React, React Native, Nextjs, HTML,
@@ -36,7 +36,7 @@ export function About() {
                <div className="div_button">
                   <Button icon={<FileArrowDown />}>
                      <a href="#" download>
-                        Baixar Currículo
+                        Download CV
                      </a>
                   </Button>
                </div>
