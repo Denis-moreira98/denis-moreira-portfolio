@@ -15,7 +15,8 @@ export const projectsData = [
       image: image1,
       title: "Sistema para uma pizzaria (Moreira Pizzas)",
       url: "https://github.com/Denis-moreira98/sistem-moreira-pizzas",
-      deploy: "https://github.com/Denis-moreira98/sistem-moreira-pizzas",
+      deploy:
+         "https://www.youtube.com/watch?v=JSqVy1BhU6U&ab_channel=DenisMoreira",
    },
    {
       id: 2,
