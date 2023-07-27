@@ -5,8 +5,7 @@ import { projectsData } from "./projectsData";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// @ts-ignore: Unreachable code error
-import { Pagination, Navigation } from "swiper";
+import { Pagination } from "swiper";
 
 export function Projects() {
    const navigationPrevRef = useRef(null);
@@ -18,9 +17,6 @@ export function Projects() {
          <span className="section-subtitle">Projetos pessoais</span>
 
          <Swiper
-            /* </StyledProjects>pagination={{
-               type: "progressbar",
-            }} */
             spaceBetween={14}
             navigation={true}
             modules={[Pagination]}
@@ -41,10 +37,10 @@ export function Projects() {
 
                   <div className="div_link">
                      <a href={url} className="social-icon" target="_blank">
-                        <BsGithub size={30} />
+                        <BsGithub size={31} />
                      </a>
                      <a href={deploy} className="social-icon" target="_blank">
-                        <BsLink size={30} />
+                        <BsLink size={31} />
                      </a>
                   </div>
                </SwiperSlide>

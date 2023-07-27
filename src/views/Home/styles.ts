@@ -94,8 +94,8 @@ export const StyledHome = styled.section`
                transition: 0.3s;
 
                &:hover {
-                  color: ${({ theme }) =>
-                     theme.effects.hoverLight(theme.colors.main500)};
+                  color: ${({ theme }) => theme.colors.second};
+                  transform: scale(1.2);
                }
             }
          }

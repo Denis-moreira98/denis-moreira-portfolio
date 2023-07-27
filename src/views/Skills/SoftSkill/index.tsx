@@ -3,7 +3,7 @@ import { AiTwotonePushpin } from "react-icons/ai";
 export function SoftSkill() {
    return (
       <div className="skills-content">
-         <h2>SoftSkills</h2>
+         <h2>Soft Skills</h2>
 
          <div className="skills-box">
             <div className="skills-group">
@@ -14,7 +14,7 @@ export function SoftSkill() {
                </div>
                <div className="skill-item">
                   <div>
-                     <h3>Metodologia ágil(Scrum)</h3>
+                     <h3>Gestão do tempo</h3>
                   </div>
                </div>
                <div className="skill-item">
@@ -24,17 +24,17 @@ export function SoftSkill() {
                </div>
                <div className="skill-item">
                   <div>
-                     <h3>Gestão de projetos</h3>
+                     <h3>Solução de problemas</h3>
                   </div>
                </div>
                <div className="skill-item">
                   <div>
-                     <h3>Responsabilidade</h3>
+                     <h3>Flexibilidade e adaptabilidade</h3>
                   </div>
                </div>
                <div className="skill-item">
                   <div>
-                     <h3>Flexibilidade</h3>
+                     <h3>Autoconfiança</h3>
                   </div>
                </div>
                <div className="skill-item">
@@ -45,6 +45,11 @@ export function SoftSkill() {
                <div className="skill-item">
                   <div>
                      <h3>Pensamento analítico</h3>
+                  </div>
+               </div>
+               <div className="skill-item">
+                  <div>
+                     <h3>Metodologia Ágil (Scrum)</h3>
                   </div>
                </div>
             </div>

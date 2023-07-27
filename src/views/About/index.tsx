@@ -18,20 +18,23 @@ export function About() {
                <AboutInfo />
 
                <p>
-                  Sou graduado em Análise e Desenvolvimento de Sistemas ,
-                  desenvolvedor de software, voltado para aplicações web. <br />
+                  Eu sou Denis Moreira, profissional graduando em Análise e
+                  Desenvolvimento de Sistemas, especializado em desenvolvimento
+                  front-end e aplicações voltadas para a interface do usuário.
+                  <br />
                   Os avanços tecnológicos vêm carregados de facilidades que
                   objetivam melhorar nosso desempenho nas tarefas do dia a dia,
                   seja tornando-as mais rápidas, mais seguras ou mais simples.
                   Fascinado pelos avanços tecnológicos, estou sempre em busca de
-                  novos desafios para poder progredir na área. Me considero ágil
-                  e consistente em aprender uma nova tecnologia e alta
-                  adaptabilidade às mudanças, pronto para superar qualquer
-                  desafio! Tenho como objetivo contribuir com meus
-                  conhecimentos, aprender e evoluir profissionalmente. Possuo
-                  foco em desenvolvimento com React, React Native, Nextjs, HTML,
-                  CSS, Javascript, TypeScript e NodeJS dentre outras tecnologias
-                  que uso para criar aplicações web de alto nível.
+                  novos desafios para poder progredir na área. Meu objetivo é
+                  encontrar as melhores soluções criativas, cuidando sempre de
+                  cada detalhe e buscando sempre um impacto positivo na
+                  experiencia do usuário. Me considero ágil e consistente em
+                  aprender uma nova tecnologia e alta adaptabilidade às
+                  mudanças, pronto para superar qualquer desafio! Possuo foco em
+                  desenvolvimento com React, React Native, Nextjs, HTML, CSS,
+                  Javascript, TypeScript e NodeJS dentre outras tecnologias que
+                  uso para criar aplicações web de alto nível.
                </p>
                <div className="div_button">
                   <Button icon={<FileArrowDown />}>

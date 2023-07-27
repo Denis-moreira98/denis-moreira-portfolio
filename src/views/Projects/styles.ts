@@ -1,16 +1,26 @@
 import { styled } from "styled-components";
 
 export const StyledProjects = styled.section`
-   projects-container {
+   .projects-container {
       width: 800px;
       padding: 0.5rem;
       padding-bottom: 3rem;
    }
 
-   .social-icon{
-      font-size: 2rem;
-      color: ${({ theme }) => theme.colors.main500}
-   }
+ 
+   .social-icon {
+         margin-top: 5px;
+         font-size: 2rem;
+         color: ${({ theme }) => theme.colors.main500};
+         transition: 0.3s;
+
+      
+      }
+   .social-icon:hover {
+         color: ${({ theme }) => theme.colors.second};
+         transform: scale(1.2);
+      }
+   
    
 
    .projects-card {
@@ -19,7 +29,7 @@ export const StyledProjects = styled.section`
       width:
       margin-bottom: 3rem;
       border-radius: 1.5rem;
-      height: 360px;
+      height: 370px;
       
 
 
