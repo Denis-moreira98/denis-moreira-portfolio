@@ -1,5 +1,3 @@
-import { AiTwotonePushpin } from "react-icons/ai";
-
 export function SoftSkill() {
    return (
       <div className="skills-content">
