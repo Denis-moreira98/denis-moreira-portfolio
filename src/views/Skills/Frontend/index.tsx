@@ -39,7 +39,7 @@ export function Frontend() {
 
                   <div>
                      <h3>SASS</h3>
-                     <span>Básico</span>
+                     <span>Intermediário</span>
                   </div>
                </div>
 
@@ -57,7 +57,7 @@ export function Frontend() {
 
                   <div>
                      <h3>Tailwind</h3>
-                     <span>Básico</span>
+                     <span>Intermediário</span>
                   </div>
                </div>
 
@@ -93,7 +93,7 @@ export function Frontend() {
 
                   <div>
                      <h3>Next.js</h3>
-                     <span>Básico</span>
+                     <span>Intermediário</span>
                   </div>
                </div>
                <div className="skill-item">

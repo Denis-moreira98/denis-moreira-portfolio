@@ -38,6 +38,7 @@ export const StyledProjects = styled.section`
          height: 250px;
          border-radius: 25px 25px 0 0;
          margin-bottom: 0.1rem;
+         object-fit: cover;
 
       }
 
