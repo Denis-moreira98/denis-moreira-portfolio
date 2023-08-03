@@ -8,6 +8,8 @@ import image7 from "../../assets/projects/image7.png";
 import image8 from "../../assets/projects/image8.png";
 import image9 from "../../assets/projects/image9.png";
 import image10 from "../../assets/projects/image10.png";
+import tarefas from "../../assets/projects/tarefas.png";
+import institucional from "../../assets/projects/institucional.png";
 
 export const projectsData = [
    {
@@ -26,11 +28,25 @@ export const projectsData = [
       deploy: "https://webcarros-ten.vercel.app/",
    },
    {
+      id: 22,
+      image: institucional,
+      title: "Site Institucional (Dev Moreira)",
+      url: "https://github.com/Denis-moreira98/sistem-institucional",
+      deploy: "https://sistem-institucional.vercel.app/",
+   },
+   {
       id: 3,
       image: image3,
       title: "Shopping Cart",
       url: "https://github.com/Denis-moreira98/shopping-cart-react",
       deploy: "https://shopping-cart-react-orcin.vercel.app/",
+   },
+   {
+      id: 32,
+      image: tarefas,
+      title: "Tarefas+",
+      url: "https://github.com/Denis-moreira98/app-tarefas",
+      deploy: "https://app-tarefas-six.vercel.app/",
    },
    {
       id: 4,
