@@ -113,6 +113,10 @@ export const StyledHome = styled.section`
          align-items: center;
          justify
 
+         scroll-button{
+            scale: 1.2;
+         }
+
          .mouse-simple {
             font-size: 2.5rem;
             margin-bottom: 0.3rem;
@@ -124,12 +128,19 @@ export const StyledHome = styled.section`
             font-size: 2.5rem;
             margin-bottom: 0.3rem;
             animation: scroll 2s ease infinite;
+
          }
+         .arrow-down{
+            font-size: 2.5rem;
+            margin-bottom: 0.3rem;
+            animation: scroll 2s ease infinite;
+         }
+
+        
 
          p {
             display: flex;
-            color: ${({ theme }) => theme.colors.title};
-            font-weight: 500;
+            font-weight: 700;
             font-size: 1rem;
             margin-right: 0.5rem;
             margin-left: 0.5rem;

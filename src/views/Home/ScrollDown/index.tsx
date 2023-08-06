@@ -4,14 +4,13 @@ export function ScrollDown() {
    return (
       <div className="scrolldown-container">
          <a href="#about" className="scrolldown-button">
-            <MouseSimple className="mouse-simple" />
-            <HandTap className="hand-tap" />
+            <MouseSimple size={29} className="mouse-simple" />
+            <HandTap size={29} className="hand-tap" />
             <p>
-               <span className="scroll">Rolar</span>
-               <span className="move">Mover</span>
-               para baixo
+               <span className="scroll">Rolar para baixo</span>
+               <span className="move">Mover para baixo</span>
             </p>
-            <ArrowCircleDown className="arrow-down" />
+            <ArrowCircleDown size={29} className="arrow-down" />
          </a>
       </div>
    );
