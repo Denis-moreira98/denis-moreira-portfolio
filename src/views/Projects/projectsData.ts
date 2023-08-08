@@ -46,7 +46,7 @@ export const projectsData = [
       image: tarefas,
       title: "Tarefas+",
       url: "https://github.com/Denis-moreira98/app-tarefas",
-      deploy: "https://app-tarefas-six.vercel.app/",
+      deploy: "https://github.com/Denis-moreira98/app-tarefas",
    },
    {
       id: 4,

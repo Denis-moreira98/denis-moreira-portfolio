@@ -1,5 +1,5 @@
 import {
-   Briefcase,
+   Student,
    Flask,
    House,
    Image,
@@ -93,6 +93,17 @@ export function Header() {
                         onClick={() => setActiveSection("#projects")}
                      >
                         <Image /> Projetos
+                     </a>
+                  </li>
+                  <li>
+                     <a
+                        href="#qualification"
+                        className={`nav-link ${
+                           activeSection === "#qualification" ? "active" : ""
+                        }`}
+                        onClick={() => setActiveSection("#qualification")}
+                     >
+                        <Student /> Qualificações
                      </a>
                   </li>
                   <li>
