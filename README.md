@@ -1,1 +1,1 @@
-# Denis Moreira | Portfólio 🧑🏽‍💻🚀📍✌️📱
+# Denis Moreira | Portfólio 🧑🏽‍💻🚀📍
