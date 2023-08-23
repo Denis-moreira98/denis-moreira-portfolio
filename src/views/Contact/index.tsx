@@ -25,6 +25,7 @@ export function Contact() {
       if (!name || !email || message === "") {
          //console.log("Preencha todos campos");
          toast.error("Preencha todos os campos!", {
+            duration: 2500,
             style: {
                border: "1px solid #ccc",
                padding: "8px",
@@ -52,6 +53,7 @@ export function Contact() {
                // console.log(result.text);
                // console.log("Mensagem enviada com succeo");
                toast.success("Mensagem enviada!", {
+                  duration: 2500,
                   style: {
                      border: "1px solid #ccc",
                      padding: "8px",
@@ -69,7 +71,9 @@ export function Contact() {
             },
             (error) => {
                console.log(error.text);
-               toast.error("Erro ao enviar a mensagem!");
+               toast.error("Erro ao enviar a mensagem!", {
+                  duration: 2500,
+               });
             }
          );
    };
