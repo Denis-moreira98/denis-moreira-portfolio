@@ -42,10 +42,10 @@ export function Contact() {
 
       emailjs
          .sendForm(
-            "service_os9srmh",
+            "service_7km41hp",
             "template_mycg68m",
             form.current,
-            "X3dye-xPscvmV2Qmi"
+            "9UvBcYEainF43a0vB"
          )
          .then(
             (result) => {
