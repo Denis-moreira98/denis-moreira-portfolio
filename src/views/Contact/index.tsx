@@ -50,8 +50,7 @@ export function Contact() {
          )
          .then(
             (result) => {
-               // console.log(result.text);
-               // console.log("Mensagem enviada com succeo");
+               console.log(result);
                toast.success("Mensagem enviada!", {
                   duration: 2500,
                   style: {
