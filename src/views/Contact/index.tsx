@@ -123,10 +123,10 @@ export function Contact() {
                      <FaLinkedin />
 
                      <h3>Linkedin</h3>
-                     <span>Denis Moreira</span>
+                     <span>denismoreira</span>
 
                      <a
-                        href="https://www.linkedin.com/in/denis-moreira-6888991a2/"
+                        href="https://www.linkedin.com/in/denismoreira/"
                         className="contact-button"
                         target="_blank"
                      >

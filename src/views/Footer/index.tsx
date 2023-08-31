@@ -30,7 +30,7 @@ export function Footer() {
                   <FaGithub />
                </a>
                <a
-                  href="https://www.linkedin.com/in/denis-moreira-6888991a2/"
+                  href="https://www.linkedin.com/in/denismoreira/"
                   className="footer-social-link"
                   target="_blank"
                >

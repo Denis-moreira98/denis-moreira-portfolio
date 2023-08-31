@@ -11,7 +11,7 @@ export function Social() {
             <FaGithub />
          </a>
          <a
-            href="https://www.linkedin.com/in/denis-moreira-6888991a2/"
+            href="https://www.linkedin.com/in/denismoreira/"
             className="social-icon"
             target="_blank"
          >
