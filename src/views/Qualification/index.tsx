@@ -57,6 +57,44 @@ export function Qualification() {
                      </div>
 
                      <div className="qualification-title">
+                        <h3>
+                           Projeto Completo, NodeJS, React, React Native,
+                           TypeScript
+                        </h3>
+                        <span>Udemy</span>
+
+                        <div className="qualification-calendar">
+                           <CalendarCheck />
+                           2023 - 2023
+                        </div>
+                     </div>
+                  </div>
+                  <div className="qualification-info left">
+                     <div className="qualification-title">
+                        <h3>TypeScript do básico ao avançado</h3>
+                        <span>Udemy</span>
+
+                        <div className="qualification-calendar">
+                           <CalendarCheck />
+                           2023 - 2023
+                        </div>
+                     </div>
+
+                     <div>
+                        <span className="qualification-rounder"></span>
+                        <span className="qualification-line"></span>
+                     </div>
+                  </div>
+
+                  <div className="qualification-info">
+                     <div></div>
+
+                     <div>
+                        <span className="qualification-rounder"></span>
+                        <span className="qualification-line"></span>
+                     </div>
+
+                     <div className="qualification-title">
                         <h3>NextJs do zero ao avançado na prática</h3>
                         <span>Udemy</span>
 
@@ -93,24 +131,19 @@ export function Qualification() {
                      </div>
 
                      <div className="qualification-title">
-                        <h3>
-                           Projeto Completo, NodeJS, React, React Native,
-                           TypeScript
-                        </h3>
-                        <span>Udemy</span>
+                        <h3>JavaScript</h3>
+                        <span>IFRS</span>
 
                         <div className="qualification-calendar">
                            <CalendarCheck />
-                           2022 - 2023
+                           2022 - 2022
                         </div>
                      </div>
                   </div>
 
                   <div className="qualification-info left">
                      <div className="qualification-title">
-                        <h3>
-                           Desenvolvimento web completo com mais de 20 projetos
-                        </h3>
+                        <h3>Desenvolvimento web completo</h3>
                         <span>Udemy</span>
 
                         <div className="qualification-calendar">
