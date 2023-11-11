@@ -89,7 +89,9 @@ export const StyledAbout = styled.section`
          }
 
          > p {
-            padding: 0 4rem 0 0;
+            white-space:   
+            width: 100%;
+            text-aligner: center;
             margin-bottom: 2rem;
          }
 
