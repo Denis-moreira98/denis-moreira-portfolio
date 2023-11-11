@@ -1,4 +1,4 @@
-import { darken, lighten } from "polished";
+import { darken, lighten, rgba } from "polished";
 
 export const lightTheme = {
    colors: {
@@ -14,7 +14,7 @@ export const lightTheme = {
       button: "#f1f5f9",
 
       // backgrounds
-      bodyBg: "#cfd4e5",
+      bodyBg: "rgba(0, 102, 204, 0.2)",
       containerBg: "#e6ecf9",
       inputBg: "#ccd2df",
       fadeBg: "rgba(30, 30, 30, 0.3)",

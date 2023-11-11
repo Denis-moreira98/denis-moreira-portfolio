@@ -39,7 +39,7 @@ export function Header() {
                   className="logo-link"
                   onClick={() => setActiveSection("#home")}
                >
-                  Denis Moreira
+                  {`<DenisMoreira />`}
                </a>
                <ToggleDarkMode
                   darkMode={darkMode}
