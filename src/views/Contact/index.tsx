@@ -23,8 +23,7 @@ export function Contact() {
       e.preventDefault();
 
       if (!name || !email || message === "") {
-         //console.log("Preencha todos campos");
-         toast.error("Preencha todos os campos!", {
+         /* toast.error("Preencha todos os campos!", {
             duration: 2500,
             style: {
                border: "1px solid #ccc",
@@ -36,7 +35,7 @@ export function Contact() {
                primary: "#e52e4d",
                secondary: "#cfd4e5",
             },
-         });
+         });        */
 
          return;
       }
@@ -148,6 +147,7 @@ export function Contact() {
                         placeholder="Seu nome completo"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
+                        required
                      />
                      <Input
                         label="Email"
@@ -156,6 +156,7 @@ export function Contact() {
                         placeholder="Seu email preferido"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
+                        required
                      />
                      <Textarea
                         label="Projeto"
@@ -165,6 +166,7 @@ export function Contact() {
                         rows={6}
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
+                        required
                      />
                   </div>
 

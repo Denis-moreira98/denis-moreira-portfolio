@@ -20,7 +20,7 @@ const DarkModeContext = createContext<DarkModeContextData>(
 );
 
 export function DarkModeProvider({ children }: DarkModeProviderProps) {
-   const [darkMode, setDarkMode] = useState(true);
+   const [darkMode, setDarkMode] = useState(false);
 
    useEffect(() => {
       const darkModeSaved = JSON.parse(
