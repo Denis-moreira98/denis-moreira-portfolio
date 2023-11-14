@@ -14,7 +14,7 @@ export const lightTheme = {
       button: "#f1f5f9",
 
       // backgrounds
-      bodyBg: "rgba(0, 102, 204, 0.2)",
+      bodyBg: "#d4e6f7",
       containerBg: "#e6ecf9",
       inputBg: "#ccd2df",
       fadeBg: "rgba(30, 30, 30, 0.3)",
@@ -61,7 +61,7 @@ export const darkTheme = {
       button: "#e6ebf6",
 
       // backgrounds
-      bodyBg: "#131416",
+      bodyBg: "#0d1117",
       containerBg: "#26282b",
       inputBg: "#3b3d41",
       fadeBg: "rgba(10, 10, 10, 0.4)",
