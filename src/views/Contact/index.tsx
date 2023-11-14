@@ -169,7 +169,7 @@ export function Contact() {
                   </div>
 
                   <div className="btn-container btn">
-                     <Button icon={<PaperPlaneTilt />}>Enviar menssagem</Button>
+                     <Button icon={<PaperPlaneTilt />}>Enviar mensagem</Button>
                   </div>
                </form>
             </div>
