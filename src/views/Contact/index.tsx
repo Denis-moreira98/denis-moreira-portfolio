@@ -122,7 +122,7 @@ export function Contact() {
                   <div className="contact-card">
                      <FaLinkedin />
 
-                     <h3>Linkedin</h3>
+                     <h3>LinkedIn</h3>
                      <span>denismoreira</span>
 
                      <a
@@ -130,7 +130,7 @@ export function Contact() {
                         className="contact-button"
                         target="_blank"
                      >
-                        Contato no linkedin
+                        Contato no linkedIn
                         <CaretRight weight="bold" />
                      </a>
                   </div>
