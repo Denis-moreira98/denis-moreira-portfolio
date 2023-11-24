@@ -10,6 +10,7 @@ import image9 from "../../assets/projects/image9.png";
 import image10 from "../../assets/projects/image10.png";
 import tarefas from "../../assets/projects/tarefas.png";
 import institucional from "../../assets/projects/institucional.png";
+import dalygames from "../../assets/projects/dalygames.png";
 
 export const projectsData = [
    {
@@ -35,11 +36,11 @@ export const projectsData = [
       deploy: "https://sistem-institucional.vercel.app/",
    },
    {
-      id: 3,
-      image: image3,
-      title: "Shopping Cart",
-      url: "https://github.com/Denis-moreira98/shopping-cart-react",
-      deploy: "https://shopping-cart-react-orcin.vercel.app/",
+      id: 4,
+      image: image4,
+      title: "CineFlix",
+      url: "https://github.com/Denis-moreira98/prime-flix-react",
+      deploy: "https://cine-flix-react.vercel.app/",
    },
    {
       id: 32,
@@ -48,12 +49,20 @@ export const projectsData = [
       url: "https://github.com/Denis-moreira98/app-tarefas",
       deploy: "https://github.com/Denis-moreira98/app-tarefas",
    },
+
    {
-      id: 4,
-      image: image4,
-      title: "Prime Flix",
-      url: "https://github.com/Denis-moreira98/prime-flix-react",
-      deploy: "https://prime-flix-react.vercel.app/",
+      id: 3,
+      image: image3,
+      title: "Shopping Cart",
+      url: "https://github.com/Denis-moreira98/shopping-cart-react",
+      deploy: "https://shopping-cart-react-orcin.vercel.app/",
+   },
+   {
+      id: 13,
+      image: dalygames,
+      title: "DalyGames",
+      url: "https://github.com/Denis-moreira98/dalygames",
+      deploy: "https://dalygames.vercel.app/",
    },
    {
       id: 5,
