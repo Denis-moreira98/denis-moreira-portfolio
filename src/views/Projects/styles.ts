@@ -2,44 +2,36 @@ import { styled } from "styled-components";
 
 export const StyledProjects = styled.section`
    .projects-container {
-      width: 800px;
+      width: 968px;
       padding: 0.5rem;
       padding-bottom: 3rem;
    }
 
- 
    .social-icon {
-         margin-top: 5px;
-         font-size: 2rem;
-         color: ${({ theme }) => theme.colors.main500};
-         transition: 0.3s;
-
-      
-      }
+      margin-top: 5px;
+      font-size: 2rem;
+      color: ${({ theme }) => theme.colors.main500};
+      transition: 0.5s;
+   }
    .social-icon:hover {
-         color: ${({ theme }) => theme.colors.second};
-         transform: scale(1.2);
-      }
-   
-   
+      color: ${({ theme }) => theme.colors.second};
+      transform: scale(1.2);
+   }
 
    .projects-card {
       background-color: ${({ theme }) => theme.colors.containerBg};
       box-shadow: ${({ theme }) => theme.effects.shadowAround};
-      width:
       margin-bottom: 3rem;
       border-radius: 1.5rem;
-      height: 370px;
-      
-
+      width: 100%;
+      height: 100%;
 
       img {
          width: 100%;
-         height: 250px;
+         height: 350px;
          border-radius: 25px 25px 0 0;
          margin-bottom: 0.1rem;
          object-fit: cover;
-
       }
 
       h3 {
@@ -60,7 +52,6 @@ export const StyledProjects = styled.section`
          justify-content: center;
          font-size: 15px;
          gap: 1rem;
-         padding-bottom: ;
       }
 
       button {
@@ -91,7 +82,5 @@ export const StyledProjects = styled.section`
       .projects-container {
          width: initial;
       }
-
-      
    }
 `;

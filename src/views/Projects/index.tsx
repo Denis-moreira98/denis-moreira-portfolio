@@ -17,15 +17,19 @@ export function Projects() {
          <span className="section-subtitle">Projetos pessoais</span>
 
          <Swiper
-            spaceBetween={14}
+            spaceBetween={8}
             navigation={true}
+            grabCursor={true}
+            mousewheel={true}
+            speed={1000}
+            loop={true}
             modules={[Pagination]}
             breakpoints={{
                576: {
                   slidesPerView: 1,
                },
                768: {
-                  slidesPerView: 2,
+                  slidesPerView: 1.5,
                },
             }}
          >
