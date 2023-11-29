@@ -17,7 +17,7 @@ export function Projects() {
          <span className="section-subtitle">Projetos pessoais</span>
 
          <Swiper
-            spaceBetween={8}
+            spaceBetween={10}
             navigation={true}
             grabCursor={true}
             mousewheel={true}
@@ -29,7 +29,7 @@ export function Projects() {
                   slidesPerView: 1,
                },
                768: {
-                  slidesPerView: 1.5,
+                  slidesPerView: 1.4,
                },
             }}
          >

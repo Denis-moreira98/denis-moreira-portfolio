@@ -28,7 +28,7 @@ export const StyledProjects = styled.section`
 
       img {
          width: 100%;
-         height: 350px;
+         height: 370px;
          border-radius: 25px 25px 0 0;
          margin-bottom: 0.1rem;
          object-fit: cover;
@@ -42,10 +42,6 @@ export const StyledProjects = styled.section`
          margin-bottom: 0.25rem;
       }
 
-      p {
-         font-size: 0.9rem;
-         margin-bottom: 1rem;
-      }
       div {
          display: flex;
          flex-direction: row;
@@ -81,6 +77,26 @@ export const StyledProjects = styled.section`
    @media screen and (max-width: 992px) {
       .projects-container {
          width: initial;
+      }
+   }
+   @media screen and (max-width: 521px) {
+      .projects-card {
+         img {
+            height: 250px;
+         }
+         h3 {
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+      }
+   }
+   @media screen and (max-width: 428px) {
+      .projects-card {
+         img {
+            height: 200px;
+         }
       }
    }
 `;
