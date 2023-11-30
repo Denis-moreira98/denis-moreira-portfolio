@@ -5,8 +5,6 @@ import image4 from "../../assets/projects/image4.png";
 import image5 from "../../assets/projects/image5.png";
 import image6 from "../../assets/projects/image6.png";
 import image7 from "../../assets/projects/image7.png";
-import image8 from "../../assets/projects/image8.png";
-import image9 from "../../assets/projects/image9.png";
 import image10 from "../../assets/projects/image10.png";
 import tarefas from "../../assets/projects/tarefas.png";
 import institucional from "../../assets/projects/institucional.png";
@@ -79,31 +77,17 @@ export const projectsData = [
       deploy: "https://projeto-criptomoedas.vercel.app/",
    },
    {
-      id: 7,
-      image: image7,
-      title: "Projeto LinkTree",
-      url: "https://github.com/Denis-moreira98/projeto_deni_Link",
-      deploy: "https://projeto-deni-link.vercel.app/",
-   },
-   {
-      id: 8,
-      image: image8,
-      title: "TodoList FullStack",
-      url: "https://github.com/Denis-moreira98/Api_todolist_fullstack",
-      deploy: "https://github.com/Denis-moreira98/Api_todolist_fullstack",
-   },
-   {
-      id: 9,
-      image: image9,
-      title: "Memory Game",
-      url: "https://github.com/Denis-moreira98/memory_game",
-      deploy: "https://github.com/Denis-moreira98/memory_game",
-   },
-   {
       id: 10,
       image: image10,
       title: "App Orçamento Pessoal",
       url: "https://github.com/Denis-moreira98/app_orcamento_pessoal",
       deploy: "https://github.com/Denis-moreira98/app_orcamento_pessoal",
+   },
+   {
+      id: 7,
+      image: image7,
+      title: "Projeto LinkTree",
+      url: "https://github.com/Denis-moreira98/projeto_deni_Link",
+      deploy: "https://projeto-deni-link.vercel.app/",
    },
 ];
