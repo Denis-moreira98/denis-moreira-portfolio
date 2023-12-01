@@ -20,7 +20,6 @@ export function Backend() {
 
                   <div>
                      <h3>Node.js</h3>
-                     <span>Básico</span>
                   </div>
                </div>
 
@@ -29,7 +28,6 @@ export function Backend() {
 
                   <div>
                      <h3>Express</h3>
-                     <span>Básico</span>
                   </div>
                </div>
 
@@ -38,7 +36,6 @@ export function Backend() {
 
                   <div>
                      <h3>PostgreSQL</h3>
-                     <span>básico</span>
                   </div>
                </div>
 
@@ -47,7 +44,6 @@ export function Backend() {
 
                   <div>
                      <h3>MySQL</h3>
-                     <span>Básico</span>
                   </div>
                </div>
 
@@ -56,7 +52,6 @@ export function Backend() {
 
                   <div>
                      <h3>Prisma</h3>
-                     <span>Básico</span>
                   </div>
                </div>
             </div>

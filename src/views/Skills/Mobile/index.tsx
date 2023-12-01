@@ -13,7 +13,6 @@ export function Mobile() {
 
                   <div>
                      <h3>React Native</h3>
-                     <span>Básico</span>
                   </div>
                </div>
 
@@ -22,7 +21,6 @@ export function Mobile() {
 
                   <div>
                      <h3>Expo</h3>
-                     <span>Básico</span>
                   </div>
                </div>
             </div>

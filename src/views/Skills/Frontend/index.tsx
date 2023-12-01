@@ -6,6 +6,7 @@ import {
    SiTailwindcss,
    SiTypescript,
    SiBootstrap,
+   SiRedux,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -21,7 +22,6 @@ export function Frontend() {
 
                   <div>
                      <h3>HTML</h3>
-                     <span>Avançado</span>
                   </div>
                </div>
 
@@ -30,7 +30,6 @@ export function Frontend() {
 
                   <div>
                      <h3>CSS</h3>
-                     <span>Avançado</span>
                   </div>
                </div>
 
@@ -39,16 +38,6 @@ export function Frontend() {
 
                   <div>
                      <h3>SASS</h3>
-                     <span>Intermediário</span>
-                  </div>
-               </div>
-
-               <div className="skill-item">
-                  <SiStyledcomponents />
-
-                  <div>
-                     <h3>Styled</h3>
-                     <span>básico</span>
                   </div>
                </div>
 
@@ -57,7 +46,6 @@ export function Frontend() {
 
                   <div>
                      <h3>Tailwind</h3>
-                     <span>Intermediário</span>
                   </div>
                </div>
 
@@ -66,7 +54,6 @@ export function Frontend() {
 
                   <div>
                      <h3>JavaScript</h3>
-                     <span>Intermediário</span>
                   </div>
                </div>
 
@@ -75,7 +62,6 @@ export function Frontend() {
 
                   <div>
                      <h3>TypeScript</h3>
-                     <span>Intermediário</span>
                   </div>
                </div>
 
@@ -84,7 +70,13 @@ export function Frontend() {
 
                   <div>
                      <h3>React.js</h3>
-                     <span>Intermediário</span>
+                  </div>
+               </div>
+               <div className="skill-item">
+                  <SiRedux />
+
+                  <div>
+                     <h3>Redux</h3>
                   </div>
                </div>
 
@@ -93,7 +85,6 @@ export function Frontend() {
 
                   <div>
                      <h3>Next.js</h3>
-                     <span>Intermediário</span>
                   </div>
                </div>
                <div className="skill-item">
@@ -101,7 +92,6 @@ export function Frontend() {
 
                   <div>
                      <h3>Bootstrap</h3>
-                     <span>Intermediário</span>
                   </div>
                </div>
             </div>
