@@ -17,7 +17,7 @@ export function About() {
             <div className="about-info">
                <AboutInfo />
 
-               <p>
+               <p className="p_about">
                   Eu sou Denis Moreira, um profissional em crescimento no campo
                   de Análise e Desenvolvimento de Sistemas, com uma
                   especialização em desenvolvimento front-end e aplicações

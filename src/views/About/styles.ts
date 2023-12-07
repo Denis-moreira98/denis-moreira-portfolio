@@ -54,7 +54,9 @@ export const StyledAbout = styled.section`
          display: flex;
          justify-content: center;
       }
-
+      .p_about {
+         text-align: justify;
+      }
       .about-info {
          .info-container {
             grid-template-columns: repeat(3, 1fr);
@@ -89,9 +91,7 @@ export const StyledAbout = styled.section`
          }
 
          > p {
-            white-space:   
             width: 100%;
-            text-aligner: center;
             margin-bottom: 2rem;
          }
 

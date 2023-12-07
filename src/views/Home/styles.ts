@@ -14,89 +14,87 @@ export const StyledHome = styled.section`
       column-gap: 2rem;
       align-items: center;
 
-      
-         h1 {
-            font-size: 3rem;
-            margin-bottom: 0.25rem;
+      h1 {
+         font-size: 3rem;
+         margin-bottom: 0.25rem;
 
-            svg {
-               font-size: 4rem;
-               margin-left: 0.8rem;
-               color: ${({ theme }) => theme.colors.main500};
-               animation: hand_animate 3s ease-in-out infinite;
-               animation-delay: 3s;
-            }
-         }
-
-         h3 {
-            position: relative;
-            font-size: 1.5rem;
-            padding-left: 5.4rem;
-            font-weight: 1rem;
-            margin-bottom: 1rem;
-
-            &::before {
-               content: "";
-               position: absolute;
-               top: 1.1rem;
-               left: 0;
-               width: 70px;
-               height: 1px;
-               background-color: ${({ theme }) => theme.colors.text};
-            }
-         }
-
-         p {
-            max-width: 400px;
-            margin-bottom: 3rem;
-         }
-
-         button {
-            margin: auto;
-            background: ${({ theme }) => theme.colors.main500};
-
-            &:hover {
-               background: ${({ theme }) =>
-                  theme.effects.hoverLight(theme.colors.main500)};
-            }
+         svg {
+            font-size: 4rem;
+            margin-left: 0.8rem;
+            color: ${({ theme }) => theme.colors.main500};
+            animation: hand_animate 3s ease-in-out infinite;
+            animation-delay: 3s;
          }
       }
 
-      .avatar-container {
-         display: flex;
-         height: 100%;
+      h3 {
+         position: relative;
+         font-size: 1.5rem;
+         padding-left: 5.4rem;
+         font-weight: 1rem;
+         margin-bottom: 1rem;
 
-         .home-img {
-            background-image: url(${avatarImg});
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            width: 300px;
-            height: 300px;
-            justify-self: center;
-            border-radius: 100%;
-            box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
-            animation: avatar_animate 8s ease-in-out infinite 1s;
+         &::before {
+            content: "";
+            position: absolute;
+            top: 1.1rem;
+            left: 0;
+            width: 70px;
+            height: 1px;
+            background-color: ${({ theme }) => theme.colors.text};
          }
+      }
 
-         .social-container {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 1rem;
-            margin-left: 4rem;
+      p {
+         max-width: 400px;
+         margin-bottom: 3rem;
+      }
 
-            .social-icon {
-               font-size: 2rem;
-               color: ${({ theme }) => theme.colors.main500};
-               transition: 0.3s;
+      button {
+         margin: auto;
+         background: ${({ theme }) => theme.colors.main500};
 
-               &:hover {
-                  color: ${({ theme }) => theme.colors.second};
-                  transform: scale(1.2);
-               }
+         &:hover {
+            background: ${({ theme }) =>
+               theme.effects.hoverLight(theme.colors.main500)};
+         }
+      }
+   }
+
+   .avatar-container {
+      display: flex;
+      height: 100%;
+
+      .home-img {
+         background-image: url(${avatarImg});
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+         width: 300px;
+         height: 300px;
+         justify-self: center;
+         border-radius: 100%;
+         box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+         animation: avatar_animate 8s ease-in-out infinite 1s;
+      }
+
+      .social-container {
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 1rem;
+         margin-left: 4rem;
+
+         .social-icon {
+            font-size: 2rem;
+            color: ${({ theme }) => theme.colors.main500};
+            transition: 0.3s;
+
+            &:hover {
+               color: ${({ theme }) => theme.colors.second};
+               transform: scale(1.2);
             }
          }
       }
@@ -111,9 +109,7 @@ export const StyledHome = styled.section`
       .scrolldown-button {
          display: flex;
          align-items: center;
-         justify
-
-         scroll-button{
+         justify scroll-button {
             scale: 1.2;
          }
 
@@ -128,15 +124,12 @@ export const StyledHome = styled.section`
             font-size: 2.5rem;
             margin-bottom: 0.3rem;
             animation: scroll 2s ease infinite;
-
          }
-         .arrow-down{
+         .arrow-down {
             font-size: 2.5rem;
             margin-bottom: 0.3rem;
             animation: scroll 2s ease infinite;
          }
-
-        
 
          p {
             display: flex;
