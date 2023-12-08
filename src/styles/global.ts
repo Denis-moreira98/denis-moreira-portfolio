@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   /*=== CSS Variables ===*/
@@ -30,17 +30,17 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: ${({theme}) => theme.colors.bodyBg};
-    color: ${({theme}) => theme.colors.text};
+    background-color: ${({ theme }) => theme.colors.bodyBg};
+    color: ${({ theme }) => theme.colors.text};
   }
 
   h1 {
-    color: ${({theme}) => theme.colors.title};
+    color: ${({ theme }) => theme.colors.title};
     font-weight: 600;
   }
 
   h2, h3 {
-    color: ${({theme}) => theme.colors.title};
+    color: ${({ theme }) => theme.colors.title};
     font-weight: 500;
   }
 
@@ -49,7 +49,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    color: ${({theme}) => theme.colors.text};
+    color: ${({ theme }) => theme.colors.text};
     text-decoration: none;
   }
 
@@ -71,7 +71,7 @@ export const GlobalStyles = createGlobalStyle`
 
   .section-title {
     font-size: 2.25rem;
-    color: ${({theme}) => theme.colors.title};
+    color: ${({ theme }) => theme.colors.title};
     font-weight: 600;
   }
 
@@ -127,4 +127,15 @@ export const GlobalStyles = createGlobalStyle`
       margin-right: 1rem;
     }
   }
+
+::-webkit-scrollbar {
+ background-color: ${({ theme }) => theme.colors.bodyBg};
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: ${({ theme }) => theme.colors.main500};
+  border-radius: 1rem;
+}
+
 `;
