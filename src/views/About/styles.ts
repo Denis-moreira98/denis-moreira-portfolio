@@ -50,10 +50,7 @@ export const StyledAbout = styled.section`
             font-size: 8rem;
          }
       }
-      .div_button {
-         display: flex;
-         justify-content: center;
-      }
+
       .p_about {
          text-align: justify;
       }

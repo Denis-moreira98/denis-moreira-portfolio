@@ -1,12 +1,14 @@
-import { HandWaving, PaperPlaneTilt } from "phosphor-react";
+import { FileArrowDown, HandWaving, PaperPlaneTilt } from "phosphor-react";
 import { Button } from "../../../components/Button";
+// import CV from "../../assets/cv-denis-moreira.pdf";
 
 export function HomeInfo() {
    return (
       <div className="info-container">
          <div>
+            <span className="span-info">Olá, eu sou</span>
             <h1>
-               Olá, eu sou Denis
+               Denis Moreira
                <HandWaving />
             </h1>
             <h2>Desenvolvedor de Software</h2>
@@ -15,10 +17,16 @@ export function HomeInfo() {
                precisemos senti-lo.
             </p>
          </div>
-
-         <Button icon={<PaperPlaneTilt />}>
-            <a href="#contact">Fale comigo</a>
-         </Button>
+         <div className="button-container">
+            <Button icon={<FileArrowDown />}>
+               <a href="#" download>
+                  Download CV
+               </a>
+            </Button>
+            <Button icon={<PaperPlaneTilt />}>
+               <a href="#contact">Fale comigo</a>
+            </Button>
+         </div>
       </div>
    );
 }

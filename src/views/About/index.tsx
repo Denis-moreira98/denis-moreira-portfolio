@@ -1,9 +1,4 @@
-import { FileArrowDown } from "phosphor-react";
-
-import { Button } from "../../components/Button";
 import { AboutInfo } from "./Info";
-
-// import CV from "../../assets/cv-denis-moreira.pdf";
 
 import { StyledAbout } from "./styles";
 
@@ -39,13 +34,6 @@ export function About() {
                   web de alta qualidade, sempre visando atingir os mais altos
                   padrões.
                </p>
-               <div className="div_button">
-                  <Button icon={<FileArrowDown />}>
-                     <a href="#" download>
-                        Download CV
-                     </a>
-                  </Button>
-               </div>
             </div>
          </div>
       </StyledAbout>
