@@ -40,6 +40,13 @@ export function Frontend() {
                      <h3>SASS</h3>
                   </div>
                </div>
+               <div className="skill-item">
+                  <SiStyledcomponents />
+
+                  <div>
+                     <h3>Styled Components</h3>
+                  </div>
+               </div>
 
                <div className="skill-item">
                   <SiTailwindcss />

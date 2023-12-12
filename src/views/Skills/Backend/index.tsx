@@ -1,10 +1,12 @@
 import { FaDocker, FaNodeJs } from "react-icons/fa";
 import {
    SiExpress,
+   SiFirebase,
    SiMongodb,
    SiMysql,
    SiPostgresql,
    SiPrisma,
+   SiSupabase,
 } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
 
@@ -44,6 +46,21 @@ export function Backend() {
 
                   <div>
                      <h3>MySQL</h3>
+                  </div>
+               </div>
+
+               <div className="skill-item">
+                  <SiFirebase />
+
+                  <div>
+                     <h3>FireBase</h3>
+                  </div>
+               </div>
+               <div className="skill-item">
+                  <SiSupabase />
+
+                  <div>
+                     <h3>Supabase</h3>
                   </div>
                </div>
 

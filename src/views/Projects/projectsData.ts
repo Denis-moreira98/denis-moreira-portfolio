@@ -12,6 +12,13 @@ import dsmstore from "../../assets/projects/dsmstore.png";
 
 export const projectsData = [
    {
+      id: 101,
+      image: dsmstore,
+      title: "E-commerce - DSM STORE ",
+      url: "https://github.com/Denis-moreira98/dsm-store",
+      deploy: "https://dsm-store.vercel.app/",
+   },
+   {
       id: 1,
       image: image1,
       title: "Sistema de pedidos para pizzaria (Moreira Pizzas)",
@@ -19,13 +26,7 @@ export const projectsData = [
       deploy:
          "https://www.youtube.com/watch?v=JSqVy1BhU6U&ab_channel=DenisMoreira",
    },
-   {
-      id: 101,
-      image: dsmstore,
-      title: "E-commerce - DSM STORE ",
-      url: "https://github.com/Denis-moreira98/dsm-store",
-      deploy: "https://dsm-store.vercel.app/",
-   },
+
    {
       id: 2,
       image: image2,
