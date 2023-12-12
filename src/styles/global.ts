@@ -135,7 +135,7 @@ export const GlobalStyles = createGlobalStyle`
 
 ::-webkit-scrollbar-thumb {
   background-color: ${({ theme }) => theme.colors.main500};
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
 `;

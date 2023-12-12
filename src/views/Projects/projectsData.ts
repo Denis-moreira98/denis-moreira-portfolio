@@ -4,20 +4,27 @@ import image3 from "../../assets/projects/image3.png";
 import image4 from "../../assets/projects/image4.png";
 import image5 from "../../assets/projects/image5.png";
 import image6 from "../../assets/projects/image6.png";
-import image7 from "../../assets/projects/image7.png";
 import image10 from "../../assets/projects/image10.png";
 import tarefas from "../../assets/projects/tarefas.png";
 import institucional from "../../assets/projects/institucional.png";
 import dalygames from "../../assets/projects/dalygames.png";
+import dsmstore from "../../assets/projects/dsmstore.png";
 
 export const projectsData = [
    {
       id: 1,
       image: image1,
-      title: "Sistema para uma pizzaria (Moreira Pizzas)",
+      title: "Sistema de pedidos para pizzaria (Moreira Pizzas)",
       url: "https://github.com/Denis-moreira98/sistem-moreira-pizzas",
       deploy:
          "https://www.youtube.com/watch?v=JSqVy1BhU6U&ab_channel=DenisMoreira",
+   },
+   {
+      id: 101,
+      image: dsmstore,
+      title: "E-commerce - DSM STORE ",
+      url: "https://github.com/Denis-moreira98/dsm-store",
+      deploy: "https://dsm-store.vercel.app/",
    },
    {
       id: 2,
@@ -82,12 +89,5 @@ export const projectsData = [
       title: "App Orçamento Pessoal",
       url: "https://github.com/Denis-moreira98/app_orcamento_pessoal",
       deploy: "https://github.com/Denis-moreira98/app_orcamento_pessoal",
-   },
-   {
-      id: 7,
-      image: image7,
-      title: "Projeto LinkTree",
-      url: "https://github.com/Denis-moreira98/projeto_deni_Link",
-      deploy: "https://projeto-deni-link.vercel.app/",
    },
 ];
