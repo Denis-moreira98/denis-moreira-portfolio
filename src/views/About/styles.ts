@@ -51,9 +51,6 @@ export const StyledAbout = styled.section`
          }
       }
 
-      .p_about {
-         text-align: justify;
-      }
       .about-info {
          .info-container {
             grid-template-columns: repeat(3, 1fr);
@@ -164,6 +161,9 @@ export const StyledAbout = styled.section`
    }
 
    /* For small devices */
-   @media screen and (max-width: 350px) {
+   @media screen and (min-width: 400px) {
+      .p_about {
+         text-align: justify;
+      }
    }
 `;

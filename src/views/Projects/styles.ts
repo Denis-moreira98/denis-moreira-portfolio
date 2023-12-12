@@ -82,7 +82,7 @@ export const StyledProjects = styled.section`
    @media screen and (max-width: 521px) {
       .projects-card {
          img {
-            height: 250px;
+            height: 280px;
          }
          h3 {
             display: block;
@@ -95,7 +95,8 @@ export const StyledProjects = styled.section`
    @media screen and (max-width: 428px) {
       .projects-card {
          img {
-            height: 200px;
+            height: 230px;
+            width: auto;
          }
       }
    }
