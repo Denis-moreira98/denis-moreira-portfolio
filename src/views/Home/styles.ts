@@ -4,7 +4,9 @@ import avatarImg from "../../assets/avatar.jpeg";
 
 export const StyledHome = styled.section`
    .home-container {
-      row-gap: 7rem;
+      row-gap: 10rem;
+      margin-top: 3rem;
+      margin-bottom: 2.8rem;
    }
 
    .home-content {
