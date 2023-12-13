@@ -170,14 +170,14 @@ export const StyledHome = styled.section`
       span {
          color: ${({ theme }) => theme.colors.main500};
          font-weight: bold;
-         font-size: 1.7rem;
+         font-size: 2rem;
       }
       h1 {
          font-size: 3.5rem;
          margin-top: -18px;
       }
       h2 {
-         font-size: 1.7rem;
+         font-size: 28.4px;
          margin-top: -18px;
          margin-bottom: 10px;
       }
@@ -293,7 +293,7 @@ export const StyledHome = styled.section`
    }
 
    /* For small devices */
-   @media screen and (max-width: 430px) {
+   @media screen and (max-width: 462px) {
       .home-content {
          grid-template-columns: 0.5fr 3fr;
          padding-top: 3.5rem;
@@ -306,7 +306,18 @@ export const StyledHome = styled.section`
          }
          .button-container {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+         }
+         .button-info {
+            height: 55px;
+            font-size: 15px;
+
+            a {
+               font-size: 12px;
+            }
+            svg {
+               font-size: 23px;
+            }
          }
 
          .info-container {

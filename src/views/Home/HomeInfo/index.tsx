@@ -18,12 +18,12 @@ export function HomeInfo() {
             </p>
          </div>
          <div className="button-container">
-            <Button icon={<FileArrowDown />}>
+            <Button className="button-info" icon={<FileArrowDown />}>
                <a href="#" download>
                   Download CV
                </a>
             </Button>
-            <Button icon={<PaperPlaneTilt />}>
+            <Button className="button-info" icon={<PaperPlaneTilt />}>
                <a href="#contact">Fale comigo</a>
             </Button>
          </div>

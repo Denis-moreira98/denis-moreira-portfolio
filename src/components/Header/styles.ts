@@ -40,13 +40,13 @@ export const HeaderContainer = styled.header`
       .nav-menu {
          ul {
             display: flex;
-            column-gap: 2rem;
+            column-gap: 1.3rem;
 
             .nav-link {
                display: flex;
                flex-direction: column;
                align-items: center;
-               font-size: 0.9rem;
+               font-size: 1rem;
                color: ${({ theme }) => theme.colors.text};
                font-weight: 500;
                transition: 0.3s;
@@ -117,12 +117,12 @@ export const HeaderContainer = styled.header`
             padding: 2.5rem 0 4rem;
             box-shadow: ${({ theme }) => theme.effects.shadowTop};
             border-radius: 1.5rem 1.5rem 0 0;
-            transition: all 2s;
+            transition: all 1s;
             overflow: hidden;
 
             &.show {
                bottom: 0;
-               animation: menu_animate 1s ease-in-out 0.5s 1;
+               animation: menu_animate 1ms ease-in-out 0.5s 1;
             }
 
             ul {
@@ -170,7 +170,7 @@ export const HeaderContainer = styled.header`
          cursor: pointer;
 
          svg {
-            font-size: 3rem;
+            font-size: 2.3rem;
          }
       }
 

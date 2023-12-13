@@ -13,6 +13,7 @@ import { useState } from "react";
 import { ToggleDarkMode } from "../ToggleDarkMode";
 import { useDarkMode } from "../../hooks/useDarkMode";
 import logoImg from "../../assets/logo.svg";
+import { HiMenu } from "react-icons/hi";
 
 export function Header() {
    const { darkMode, handleSetDarkMode } = useDarkMode();
@@ -132,7 +133,7 @@ export function Header() {
                className="nav-toggle"
                onClick={() => setIsOpenMenu(!isOpenMenu)}
             >
-               <SquaresFour />
+               <HiMenu />
             </div>
          </nav>
       </HeaderContainer>
