@@ -296,7 +296,6 @@ export const StyledHome = styled.section`
    @media screen and (max-width: 462px) {
       .home-content {
          grid-template-columns: 0.5fr 3fr;
-         padding-top: 2rem;
 
          .avatar-container {
             .home-img {
