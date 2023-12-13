@@ -296,7 +296,7 @@ export const StyledHome = styled.section`
    @media screen and (max-width: 462px) {
       .home-content {
          grid-template-columns: 0.5fr 3fr;
-         padding-top: 3.5rem;
+         padding-top: 2rem;
 
          .avatar-container {
             .home-img {
@@ -304,19 +304,15 @@ export const StyledHome = styled.section`
                height: 180px;
             }
          }
-         .button-container {
-            display: flex;
-            flex-direction: row;
-         }
+
          .button-info {
             height: 55px;
-            font-size: 15px;
 
             a {
-               font-size: 12px;
+               font-size: 14px;
             }
             svg {
-               font-size: 23px;
+               font-size: 25px;
             }
          }
 
