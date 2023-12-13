@@ -12,6 +12,7 @@ import { HeaderContainer } from "./styles";
 import { useState } from "react";
 import { ToggleDarkMode } from "../ToggleDarkMode";
 import { useDarkMode } from "../../hooks/useDarkMode";
+import logoImg from "../../assets/logo.svg";
 
 export function Header() {
    const { darkMode, handleSetDarkMode } = useDarkMode();
@@ -39,13 +40,15 @@ export function Header() {
                   className="logo-link"
                   onClick={() => setActiveSection("#home")}
                >
-                  {`<DenisMoreira />`}
+                  <img src={logoImg} alt="logo D" />
                </a>
-               <ToggleDarkMode
-                  darkMode={darkMode}
-                  onHandleDarkMode={() => handleSetDarkMode()}
-                  width="small"
-               />
+               <div className="toggle">
+                  <ToggleDarkMode
+                     darkMode={darkMode}
+                     onHandleDarkMode={() => handleSetDarkMode()}
+                     width="small"
+                  />
+               </div>
             </div>
 
             <div className={`nav-menu ${isOpenMenu ? "show" : ""}`}>

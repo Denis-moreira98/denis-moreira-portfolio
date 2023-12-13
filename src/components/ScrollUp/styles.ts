@@ -15,7 +15,7 @@ export const StyledScrollUp = styled.a`
    cursor: pointer;
 
    &.show {
-      bottom: 3rem;
+      bottom: 3.8rem;
    }
 
    &:hover {
@@ -40,12 +40,12 @@ export const StyledScrollUp = styled.a`
    }
 
    /* For medium devices */
-   @media screen and (max-width: 768px) {
-      bottom: 4rem;
+   @media screen and (max-width: 710px) {
+      bottom: 4.5rem;
    }
 
    /* For small devices */
-   @media screen and (max-width: 350px) {
-      right: 1rem;
+   @media screen and (max-width: 390px) {
+      right: 1.5rem;
    }
 `;
