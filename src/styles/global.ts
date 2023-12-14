@@ -129,13 +129,15 @@ export const GlobalStyles = createGlobalStyle`
   }
 
 ::-webkit-scrollbar {
- background-color: ${({ theme }) => theme.colors.bodyBg};
-  width: 10px;
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background-color: ${({ theme }) => theme.colors.bodyBg};
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: ${({ theme }) => theme.colors.main500};
-  border-radius: 16px;
+  border-radius: 999px;
 }
 
 `;

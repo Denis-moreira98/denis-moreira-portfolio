@@ -15,7 +15,7 @@ export const HeaderContainer = styled.header`
    }
 
    nav {
-      height: 4.5rem;
+      height: 4rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -26,7 +26,8 @@ export const HeaderContainer = styled.header`
 
          a {
             img {
-               width: 65px;
+               margin-top: 5px;
+               width: 50px;
                height: auto;
             }
          }
@@ -34,7 +35,7 @@ export const HeaderContainer = styled.header`
 
       .toggle {
          margin-left: 18px;
-         margin-top: 20px;
+         margin-top: 17px;
       }
 
       .nav-menu {
@@ -99,13 +100,13 @@ export const HeaderContainer = styled.header`
             a {
                img {
                   height: auto;
-                  width: 40px;
+                  width: 35px;
                }
             }
          }
          .toggle {
             margin-left: 18px;
-            margin-top: 13px;
+            margin-top: 16px;
          }
 
          .nav-menu {
