@@ -1,19 +1,11 @@
-import {
-   Student,
-   Flask,
-   House,
-   Image,
-   PaperPlaneTilt,
-   SquaresFour,
-   User,
-   X,
-} from "phosphor-react";
+import { Student, House, Image, PaperPlaneTilt, User, X } from "phosphor-react";
 import { HeaderContainer } from "./styles";
 import { useState } from "react";
 import { ToggleDarkMode } from "../ToggleDarkMode";
 import { useDarkMode } from "../../hooks/useDarkMode";
 import logoImg from "../../assets/logo.svg";
 import { HiMenu } from "react-icons/hi";
+import { GiSkills } from "react-icons/gi";
 
 export function Header() {
    const { darkMode, handleSetDarkMode } = useDarkMode();
@@ -84,7 +76,7 @@ export function Header() {
                         }`}
                         onClick={() => setActiveSection("#skills")}
                      >
-                        <Flask /> Habilidades
+                        <GiSkills size={26} /> Habilidades
                      </a>
                   </li>
 
