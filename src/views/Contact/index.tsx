@@ -23,20 +23,6 @@ export function Contact() {
       e.preventDefault();
 
       if (!name || !email || message === "") {
-         /* toast.error("Preencha todos os campos!", {
-            duration: 2500,
-            style: {
-               border: "1px solid #ccc",
-               padding: "8px",
-               color: "#191a1c",
-               backgroundColor: "#e6ecf9",
-            },
-            iconTheme: {
-               primary: "#e52e4d",
-               secondary: "#cfd4e5",
-            },
-         });        */
-
          return;
       }
 

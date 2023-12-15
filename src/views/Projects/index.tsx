@@ -35,7 +35,7 @@ export function Projects() {
          >
             {projectsData.map(({ id, image, title, url, deploy }) => (
                <SwiperSlide className="projects-card" key={id}>
-                  <img src={image} alt="user avatar" />
+                  <img src={image} alt={title} />
 
                   <h3>{title}</h3>
 
