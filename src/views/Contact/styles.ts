@@ -77,10 +77,13 @@ export const StyledContact = styled.section`
          width: 100%;
          display: flex;
          justify-content: center;
+         align-items: center;
 
          button {
             margin-top: 2rem;
             background-color: ${({ theme }) => theme.colors.main500};
+            min-width: 238.86px;
+            min-height: 65px;
 
             &:hover {
                background-color: ${({ theme }) =>

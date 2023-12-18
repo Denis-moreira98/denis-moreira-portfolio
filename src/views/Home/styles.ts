@@ -190,6 +190,12 @@ export const StyledHome = styled.section`
       flex-direction: row;
       width: 100%;
       gap: 1rem;
+
+      .button-info {
+         svg {
+            margin-left: 0.5rem;
+         }
+      }
    }
 
    /*=== Breakpoints ===*/

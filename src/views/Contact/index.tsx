@@ -9,15 +9,15 @@ import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea";
 import { Button } from "../../components/Button";
 import { StyledContact } from "./styles";
-
+import { Loading } from "../../components/Loading";
 import toast from "react-hot-toast";
 
 export function Contact() {
    const form = useRef();
-
    const [name, setName] = useState("");
    const [email, setEmail] = useState("");
    const [message, setMessage] = useState("");
+   const [loading, setLoading] = useState(false);
 
    const sendEmail = (e: FormEvent) => {
       e.preventDefault();
@@ -25,6 +25,8 @@ export function Contact() {
       if (!name || !email || message === "") {
          return;
       }
+
+      setLoading(true);
 
       emailjs
          .sendForm(
@@ -49,6 +51,7 @@ export function Contact() {
                      secondary: "#e6ecf9",
                   },
                });
+               setLoading(false);
                setName("");
                setEmail("");
                setMessage("");
@@ -157,7 +160,28 @@ export function Contact() {
                   </div>
 
                   <div className="btn-container btn">
-                     <Button icon={<PaperPlaneTilt />}>Enviar mensagem</Button>
+                     <Button
+                        type="submit"
+                        disabled={loading}
+                        style={{
+                           cursor: loading ? "not-allowed" : "pointer",
+                           position: "relative",
+                        }}
+                     >
+                        {loading && <Loading />}
+                        {loading ? (
+                           ""
+                        ) : (
+                           <>
+                              Enviar Mensagem
+                              <PaperPlaneTilt
+                                 style={{
+                                    marginLeft: "0.5rem",
+                                 }}
+                              />
+                           </>
+                        )}
+                     </Button>
                   </div>
                </form>
             </div>
