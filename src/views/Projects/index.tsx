@@ -19,7 +19,6 @@ export function Projects() {
          <Swiper
             spaceBetween={10}
             navigation={true}
-            grabCursor={true}
             mousewheel={true}
             speed={1000}
             loop={true}

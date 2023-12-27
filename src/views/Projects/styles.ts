@@ -11,7 +11,7 @@ export const StyledProjects = styled.section`
       margin-top: 5px;
       font-size: 2rem;
       color: ${({ theme }) => theme.colors.main500};
-      transition: 0.5s;
+      transition: all 0.5s;
    }
    .social-icon:hover {
       color: ${({ theme }) => theme.colors.second};
