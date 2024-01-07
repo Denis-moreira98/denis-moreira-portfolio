@@ -210,7 +210,7 @@ export function Qualification() {
                         <span>Freelancer</span>
 
                         <div className="qualification-calendar">
-                           <CalendarCheck />
+                           <CalendarBlank />
                            Jan de 2023 - Presente
                         </div>
                      </div>
