@@ -183,6 +183,7 @@ export function Qualification() {
                      selectedTab === 2 ? "active" : ""
                   }`}
                >
+                  {/* 
                   <div className="qualification-info">
                      <div></div>
 
@@ -192,24 +193,25 @@ export function Qualification() {
                      </div>
 
                      <div className="qualification-title">
-                        <h3>Desenvolvedor de Software Pleno</h3>
-                        <span>Máquina de Lucro</span>
+                        <h3>Desenvolvedor de Software</h3>
+                        <span>Freelancer</span>
 
                         <div className="qualification-calendar">
                            <CalendarBlank />
-                           2022 - Presente
+                           Jan de 2023 - Presente
                         </div>
                      </div>
                   </div>
+                  */}
 
                   <div className="qualification-info left">
                      <div className="qualification-title">
-                        <h3>Desenvolvedor de Software Júnior</h3>
-                        <span>Máquina de Lucro</span>
+                        <h3>Desenvolvedor de Software</h3>
+                        <span>Freelancer</span>
 
                         <div className="qualification-calendar">
                            <CalendarCheck />
-                           2022 - 2022
+                           Jan de 2023 - Presente
                         </div>
                      </div>
 

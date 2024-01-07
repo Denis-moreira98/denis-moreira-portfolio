@@ -129,7 +129,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
 ::-webkit-scrollbar {
-  width: 9px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
   background-color: ${({ theme }) => theme.colors.bodyBg};
