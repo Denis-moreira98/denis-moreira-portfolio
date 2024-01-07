@@ -151,7 +151,7 @@ export const StyledQualification = styled.section`
    }
 
    /* For small devices */
-   @media screen and (max-width: 350px) {
+   @media screen and (max-width: 410px) {
       .qualification-info {
          gap: 0.5rem;
       }

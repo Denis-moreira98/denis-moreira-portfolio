@@ -211,7 +211,7 @@ export function Qualification() {
 
                         <div className="qualification-calendar">
                            <CalendarBlank />
-                           Jan de 2023 - Presente
+                           Jan 2023 - Presente
                         </div>
                      </div>
 
