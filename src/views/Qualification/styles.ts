@@ -27,6 +27,7 @@ export const StyledQualification = styled.section`
 
       &.active {
          color: ${({ theme }) => theme.colors.main500};
+         font-weight: 500;
       }
 
       svg {

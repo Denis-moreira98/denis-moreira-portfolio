@@ -27,7 +27,7 @@ export function DarkModeProvider({ children }: DarkModeProviderProps) {
          localStorage.getItem("darkMode") as string
       );
 
-      if (darkModeSaved) {
+      if (!darkModeSaved) {
          setDarkMode(darkModeSaved);
       }
    }, []);
