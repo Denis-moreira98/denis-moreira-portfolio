@@ -39,16 +39,16 @@ export function Contact() {
             (result) => {
                console.log(result);
                toast.success("Mensagem enviada!", {
-                  duration: 2500,
+                  duration: 3000,
                   style: {
-                     border: "1px solid #ccc",
+                     border: "1px solid rgba(58, 58, 58, 0.219)",
                      padding: "8px",
-                     color: "#191a1c",
-                     backgroundColor: "#e6ecf9",
+                     color: "#e6ebf6",
+                     backgroundColor: "#0d1117",
                   },
                   iconTheme: {
-                     primary: "#10955F",
-                     secondary: "#e6ecf9",
+                     primary: "#003c7a",
+                     secondary: "#4b95fd",
                   },
                });
                setLoading(false);

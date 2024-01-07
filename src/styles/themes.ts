@@ -5,7 +5,7 @@ export const lightTheme = {
       // variables
       main300: "#003c7a",
       main500: "#003c7a",
-      second: "#2165c5",
+      second: "#4b95fd",
       title: "#191a1c",
       titleContrast: "#d6dbe5",
       text: "#303336",
@@ -50,7 +50,7 @@ export const lightTheme = {
 export const darkTheme = {
    colors: {
       // variables
-      main300: "#c0aa8b",
+      main300: "#003c7a",
       main500: "#003c7a",
       second: "#4b95fd",
       title: "#e6ebf6",
